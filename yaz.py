@@ -4,7 +4,6 @@ st.write("La polarización es una propiedad de la luz, que describe la geometrí
 st.subheader("La luz:")
 col1, col2, col3 = st.beta_columns([1,6,1])
 with col2:
-st.markdown("![Alt Text](http://www.juliohernandezfotografia.cl/wp-content/uploads/2015/10/luz-polarizador.gif)")
    st.markdown("![Alt Text](http://www.juliohernandezfotografia.cl/wp-content/uploads/2015/10/luz-polarizador.gif)")
 st.write("La luz son ondas electromagneticas, visible al ojo humano,estas ondas vibran en diferentes direcciones perpendiculares en forma de propagación hasta que estas son sometidas a la polarizacion")
 st.subheader("Luz polarizada:")
