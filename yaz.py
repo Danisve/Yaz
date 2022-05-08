@@ -11,7 +11,7 @@ st.subheader("Polarizador:")
 st.image("https://w7.pngwing.com/pngs/939/208/png-transparent-polarized-light-polarimeter-optical-rotation-density-matrix-bulbs-angle-experiment-light.png")
 st.write ("Los polarizdores son materiales que transmiten de forma selectiva las ondas electromagneticas de la luz, restringiendo las ondas a una sola direccion de propagacion bloqueando el resto de planos de polarizacion")
 botones_vector = ['Lineal','Circular','Elíptica']
-vectores = st.sidebar.radio ('Tipo de polarizacion',botones_vector)
+vectores = st.radio ('Tipo de polarizacion',botones_vector)
 if vectores == 'Lineal':
      st.write("El vector E traza sobre el plano perpendicular a la dirección de propagación una linea recta.")
 if vectores == 'Circular':
