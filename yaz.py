@@ -5,7 +5,6 @@ st.subheader("La luz:")
 _left, mid, _right = st.columns(3)
 with mid:
    st.markdown("![Alt Text](http://www.juliohernandezfotografia.cl/wp-content/uploads/2015/10/luz-polarizador.gif)")
-st.markdown("![Alt Text](http://www.juliohernandezfotografia.cl/wp-content/uploads/2015/10/luz-polarizador.gif)")
 st.write("La luz son ondas electromagneticas, visible al ojo humano,estas ondas vibran en diferentes direcciones perpendiculares en forma de propagación hasta que estas son sometidas a la polarizacion")
 st.subheader("Luz polarizada:")
 st.write("las ondas de luz vibran en un solo plano, esto se produce gracias a la ayuda de un polarizador")
