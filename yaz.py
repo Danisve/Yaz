@@ -14,7 +14,6 @@ genre = st.radio("Tipo de polarizacion", ('Lineal ', 'Circular', 'Elíptica'))
 if genre == 'Lineal':
      st.write("El vector E traza sobre el plano perpendicular a la dirección de propagación una linea recta.")
 else:
-     do nothing
 if genre == 'Circular':
      st.write('Componentes de E misma magnitud, pero una diferencia de fase, puede verse girando a la izquierda o hacia la derecha.')
 if genre == 'Elíptica':
